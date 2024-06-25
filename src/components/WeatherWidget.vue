@@ -158,4 +158,10 @@ function formatDate(date) {
   animation: backgroundColorChange 3s ease infinite; /* Added background animation */
 }
 
+  .weather-border {
+  border-top: 1px solid var(--medium-red);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
 </style>
