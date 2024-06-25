@@ -30,7 +30,7 @@ const time = ref('')
 const formattedDate = ref(formatDate(new Date()))
 
 const getWeather = async () => {
-  const apiKeyWeather = '1703dfa5a4fb75f408a0d0d2c3d7ffe0'
+  const apiKeyWeather = 'ceb97d9ca273e7696ff7f99b1a1fa728'
   const apiKeyTime = 'M39X87MJFWNP'
   const urlWeather = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&units=metric&appid=${apiKeyWeather}`
 
